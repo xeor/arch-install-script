@@ -5,6 +5,8 @@ NOTE: Currently, most of the settings in these scripts are just hardcoded. This 
 
 WARNING: Check the scripts first. They might damage your system. When I needed this, the system was clean and I could wipe the partition-table without thinking more about it.
 
+WARNING 2: I am using my own ssh public key in this setup... Make sure you edit them as you want! This script bundle will NOT work for you out of the box.
+
 ## How to use
 Download the scripts from the internet when you have booted the arch installer.
 

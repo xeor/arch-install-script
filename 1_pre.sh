@@ -14,7 +14,7 @@ parted --script /dev/sda \
     mkpart ESP fat32 1MiB 513MiB \
     set 1 boot on \
     mkpart primary ext4 513MiB 100% \
-    set 1 lvm on
+    set 2 lvm on
 
 pvcreate /dev/sda2
 vgcreate vg1 /dev/sda2
