@@ -9,6 +9,7 @@ WARNING 2: I am using my own ssh public key in this setup... Make sure you edit 
 
 ## How to use
 Download the scripts from the internet when you have booted the arch installer.
+A simple `curl https://tinyurl.com/xeor-arch | sh` should do the trick
 
-To install, run them one by one by number. You only haveto run a number once, but there can be multiple ways of executing a step. Example, if there are two scripts, `3_boot-bios.sh` and `3_boot-efi.sh`, you should only execute one.
+To install, run them one by one by number. You only haveto run a number once, but there can be multiple ways of executing a step. Example, if there are two scripts, `3_boot-bios.sh` and `3_boot-efi.sh`, you should only execute one. You might also want to edit them before executing, as they might contain stuff like what hostname you want.
 
